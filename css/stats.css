@@ -1,0 +1,296 @@
+/* Styles spécifiques à la page stats */
+
+/* Sélecteur de période */
+.periode-selector {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.periode-btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.periode-btn:hover {
+    background: #f0f4ff;
+}
+
+.periode-btn.active {
+    background: #667eea;
+    color: white;
+}
+
+/* Grille de stats */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Alertes */
+.alertes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.alerte {
+    padding: 15px;
+    border-radius: 12px;
+    border-left: 4px solid;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.alerte.warning {
+    background: #fff8e1;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.alerte.success {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.alerte.info {
+    background: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
+
+.alerte-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.alerte-content strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Dernières séances */
+.derniere-seance {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.derniere-box {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.derniere-box.gauche {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.derniere-box.droit {
+    background: #fce4ec;
+    color: #c2185b;
+}
+
+.derniere-box strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.derniere-box span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Équilibre */
+.equilibre-barre {
+    display: flex;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.equilibre-gauche {
+    background: #1976d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.equilibre-droit {
+    background: #c2185b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Insights */
+.insight-box {
+    background: #f0f4ff;
+    border-left: 4px solid #667eea;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.insight-box strong {
+    color: #667eea;
+}
+
+/* Espacement */
+.espacement-stats {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.espacement-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.espacement-item {
+    text-align: center;
+}
+
+.espacement-item strong {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.espacement-item span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #667eea;
+}
+
+/* Graphiques */
+.chart-container {
+    position: relative;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/* Historique séances */
+.seance {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seance-info {
+    flex: 1;
+}
+
+.seance-date {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.seance-details {
+    color: #666;
+    font-size: 14px;
+}
+
+.seance-sein {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sein-gauche {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.sein-droit {
+    background: #fce4ec;
+    color: #c2185b;
+}
+
+/* Stats par jour */
+.jour-stats {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Responsive pour stats */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .derniere-seance {
+        grid-template-columns: 1fr;
+    }
+    
+    .espacement-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .alertes {
+        grid-template-columns: 1fr;
+    }
+}
