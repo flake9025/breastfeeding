@@ -1,4 +1,5 @@
 <?php
+define('ASSET_VERSION', '2.0.0');
 $configFile = 'config.inc.php';
 
 if (!file_exists(__DIR__ . '/' . $configFile)) {

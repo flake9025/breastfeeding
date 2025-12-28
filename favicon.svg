@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fond dégradé -->
+  <defs>
+    <linearGradient id="SvgjsLinearGradient1003" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1"></stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- Cercle de fond -->
+  <rect width="512" height="512" rx="115" fill="url(#grad)"></rect>
+  
+  <!-- Biberon stylisé -->
+  <g transform="translate(256, 256)">
+    <!-- Corps du biberon -->
+    <path d="M -60 -80 L -60 80 Q -60 120 0 120 Q 60 120 60 80 L 60 -80 Z" fill="white" opacity="0.95"></path>
+    
+    <!-- Tétine -->
+    <ellipse cx="0" cy="-100" rx="35" ry="25" fill="white" opacity="0.95"></ellipse>
+    <rect x="-20" y="-80" width="40" height="20" rx="5" fill="white" opacity="0.95"></rect>
+    
+    <!-- Graduation (détails) -->
+    <line x1="-50" y1="-40" x2="-35" y2="-40" stroke="#667eea" stroke-width="3" opacity="0.5"></line>
+    <line x1="-50" y1="0" x2="-35" y2="0" stroke="#667eea" stroke-width="3" opacity="0.5"></line>
+    <line x1="-50" y1="40" x2="-35" y2="40" stroke="#667eea" stroke-width="3" opacity="0.5"></line>
+    
+    <!-- Lait dans le biberon -->
+    <path d="M -55 60 L -55 100 Q -55 115 0 115 Q 55 115 55 100 L 55 60 Z" fill="#667eea" opacity="0.3"></path>
+    
+    <!-- Coeur mignon -->
+    <path d="M 0 10 C 0 0, 15 -10, 20 -5 C 25 0, 25 10, 0 25 C -25 10, -25 0, -20 -5 C -15 -10, 0 0, 0 10 Z" fill="#ff69b4" opacity="0.8" transform="scale(0.8)"></path>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
