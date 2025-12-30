@@ -144,7 +144,7 @@ function restoreFormData() {
         }
         
         // Afficher un message de restauration
-        showRestoreMessage(hoursDiff);
+        //showRestoreMessage(hoursDiff);
         
         // Mettre à jour l'affichage de la durée
         updateDuration();

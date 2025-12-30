@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $pageTitle ?? 'Suivi Allaitement' ?></title>
+    <title><?= $pageTitle ?? 'Allaitement' ?></title>
     
 	<!-- Meta tags pour désactiver le cache (important pour iPhone) -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
